@@ -1,0 +1,42 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+User-specific
+*.dylib
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+
+Visual Studio cache
+.vscode/
+
+Rider
+.idea/
+*.sln.iml
+
+Auto-generated
+Generated/
+Build/
+
+Unity Cloud
+.collab/
+
+Crash Reports
+sysinfo.txt
