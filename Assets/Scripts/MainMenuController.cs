@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -9,16 +10,22 @@ public class MainMenuController : MonoBehaviour
         for (int i = 0; i < menuWindows.Length; i++)
         {
             menuWindows[i].SetActive(menuWindows[i] == targetWindow);
-
-            if (Input.GetKeyDown(KeyCode.Escape))
-            {
-                menuWindows[i].SetActive(false);
-            }
         }
+
     }
 
     public void StartGame()
     {
         SceneManager.LoadScene("SampleScene");
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
+    public void BackButton(GameObject closeWindow)
+    {
+        closeWindow.SetActive(false);
     }
 }
