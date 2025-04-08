@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 146
+  controlID: 308
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 77
+  controlID: 49
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 78
+  controlID: 50
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -291,7 +291,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: LightingWindow
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -300,14 +300,14 @@ MonoBehaviour:
     y: 0
     width: 524
     height: 941
-  m_MinSize: {x: 391, y: 416}
+  m_MinSize: {x: 276, y: 76}
   m_MaxSize: {x: 4001, y: 4026}
-  m_ActualView: {fileID: 21}
+  m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
   - {fileID: 21}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -374,7 +374,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 0
+    m_HSlider: 1
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
@@ -388,18 +388,18 @@ MonoBehaviour:
       y: 21
       width: 667
       height: 553
-    m_Scale: {x: 0.34739584, y: 0.34739584}
-    m_Translation: {x: 333.5, y: 276.5}
+    m_Scale: {x: 0.36755803, y: 0.36755803}
+    m_Translation: {x: 352.76978, y: 276.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -960
-      y: -795.92206
-      width: 1920
-      height: 1591.8441
+      x: -959.7662
+      y: -752.26215
+      width: 1814.6794
+      height: 1504.5243
     m_MinimalGUI: 1
   m_defaultScale: 0.34739584
   m_LastWindowPixelSize: {x: 667, y: 574}
@@ -449,7 +449,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 62f7fdfff819feff3a21feffb041feff3842feffba60feffa265feff5a74feff4a88feffd298feff36a4feffdebbfeff8e00ffff1221ffffbe28ffffb86affff6e6bffff5a7effff2ca1ffff42b1ffff46b1ffff50b4fffffcfaffffe4a500002aec00006a3f0100
+      m_ExpandedIDs: fcfaffffd6a5000004a600003ca6000050a60000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -997,9 +997,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 827.1202, y: 480.67072, z: -262.68005}
+    m_Target: {x: 772.14355, y: 392.38495, z: -274.9769}
     speed: 2
-    m_Value: {x: 827.1202, y: 480.67072, z: -262.68005}
+    m_Value: {x: 772.14355, y: 392.38495, z: -274.9769}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1049,9 +1049,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.063263066, y: 0.009577715, z: -0.000610488, w: -0.99792236}
   m_Size:
-    m_Target: 590.8997
+    m_Target: 979.71857
     speed: 2
-    m_Value: 590.8997
+    m_Value: 979.71857
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1288,9 +1288,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c8eb0000
-    m_LastClickedID: 60360
-    m_ExpandedIDs: 000000006ca80000
+    m_SelectedIDs: 22a90000
+    m_LastClickedID: 43298
+    m_ExpandedIDs: 0000000090a80000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1319,7 +1319,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000006ca80000
+    m_ExpandedIDs: 0000000090a80000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1434,8 +1434,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1396
-    y: 79
+    x: 1397
+    y: 24
     width: 523
     height: 915
   m_SerializedDataModeController:
@@ -1483,8 +1483,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Lighting\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1397
-    y: 24
+    x: 1396
+    y: 79
     width: 523
     height: 915
   m_SerializedDataModeController:
